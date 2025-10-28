@@ -20,56 +20,40 @@ title: Syed Ali
 </section>
 
 <section id="projects" class="section">
-<h2>Projects</h2>
-<div class="grid" style="display:flex;gap:1.5rem;align-items:flex-start;overflow-x:auto;padding-bottom:1rem;">
-    <article class="card" style="min-width:320px;flex:0 0 320px;">
+  <div class="grid horizontal-row">
+  <article class="card">
         <h3>Access911 <small class="meta">| October 2025</small></h3>
         <p class="meta">Next.js, AWS (Lambda, DynamoDB, Bedrock), TypeScript, Twilio, Mapbox</p>
-        <ul>
-            <li>Secured 3rd place and $10,000 at the AWS x Vanderbilt Mission Autonomy Hackathon by developing an AI-powered emergency response platform that reduces 911 hold times during disasters.</li>
-            <li>Architected serverless AWS infrastructure using Lambda and DynamoDB for concurrent call processing; integrated Amazon Bedrock (Claude Sonnet 3.5) for real-time call summarization.</li>
-            <li>Built end-to-end voice pipeline (Twilio, ElevenLabs) and Next.js dispatcher dashboard with live Mapbox visualization, achieving 93% success rate and 2.8s latency across 2,500 calls in 30 minutes.</li>
-        </ul>
-        <p><a class="link" href="https://github.com/SySyAli/access911">Repository →</a></p>
+    <p>Secured 3rd place and $10,000 at the AWS x Vanderbilt Mission Autonomy Hackathon by building an AI‑powered emergency response platform that reduces 911 hold times during disasters. Architected serverless AWS infrastructure (Lambda, DynamoDB) and integrated Amazon Bedrock for real‑time call summarization. Built end‑to‑end voice pipeline (Twilio, ElevenLabs) and Next.js dispatcher dashboard with live Mapbox visualization. <a class="link" href="https://github.com/SySyAli/access911">Repository →</a></p>
     </article>
 
-    <article class="card" style="min-width:320px;flex:0 0 320px;">
+  <article class="card">
         <h3>Distributed Data Pipeline on Kubernetes <small class="meta">| October 2025</small></h3>
         <p class="meta">Kubernetes, Docker, Ansible, Kafka, Flask, Python</p>
-        <ul>
-            <li>Deployed scalable Kafka streaming pipeline on a 5-node Kubernetes cluster using Ansible for orchestration and Docker containerization with multiple publisher/subscriber replicas for distributed message processing.</li>
-            <li>Configured Kubernetes infrastructure with master/worker architecture, private Docker registry, and firewall rules; designed deployment YAMLs for stateful and stateless services across the cluster.</li>
-            <li>Built a multi-topic IoT data ingestion system processing sensor data; implemented horizontal scaling of subscribers and Flask web servers to prevent bottlenecks.</li>
-        </ul>
-        <!-- <p><a class="link" href="https://github.com/SySyAli/course_coach">Repository →</a></p> -->
+        <p>Deployed a scalable Kafka streaming pipeline on a 5‑node Kubernetes cluster using Ansible and Docker with multiple publisher/subscriber replicas. Configured master/worker architecture, private Docker registry, and firewall rules; authored deployment YAMLs for stateful/stateless services. Built a multi‑topic IoT ingestion system with horizontal scaling to avoid bottlenecks.</p>
     </article>
 
-    <article class="card" style="min-width:320px;flex:0 0 320px;">
+  <article class="card">
         <h3>CourseCoach <small class="meta">| November 2024</small></h3>
         <p class="meta">Next.js, TypeScript, OpenAI API, Chakra UI</p>
-        <ul>
-            <li>Developed and presented a course scheduling platform, placing 2nd at VandyHacks XI, enabling students to optimize academic planning through AI-powered recommendations and interactive flowcharts.</li>
-            <li>Integrated OpenAI API to provide personalized course recommendations into Next.js web app based on user history and preferences, improving decision-making and ensuring degree progress.</li>
-        </ul>
-        <p><a class="link" href="https://github.com/SySyAli/course_coach">Repository →</a></p>
+        <p>Course scheduling platform (2nd place, VandyHacks XI) that provides AI‑powered course recommendations and interactive flowcharts. Integrated OpenAI API into a Next.js app to deliver personalized recommendations based on user history and preferences. <a class="link" href="https://github.com/SySyAli/course_coach">Repository →</a></p>
     </article>
-</div>
+  </div>
 </section>
 
 <section id="future-projects" class="section">
   <h2>Future Projects</h2>
-<ul style="display:flex;gap:1.5rem;align-items:flex-start;overflow-x:auto;padding-bottom:1rem;">
-    <li class="card" style="min-width:320px;flex:0 0 320px;">
+  <ul class="horizontal-list">
+    <li class="card">
         <h3>Transit Trip Planner <small class="meta">| Planned</small></h3>
         <p class="meta">Multi-modal routing, GTFS, optimization</p>
         <p>Multi-stop itinerary planner that optimizes for total travel time, fewest transfers, or reliability across transit, walking, and micro-mobility. Current apps only provide the ability for one route.</p>
     </li>
 
-    <li class="card" style="min-width:320px;flex:0 0 320px;">
+    <li class="card">
         <h3>Collaborative AI Workspace <small class="meta">| Planned</small></h3>
         <p class="meta">Real-time collaboration, generative AI, shared context</p>
         <p>Google‑Docs-like generative AI app where teams co-edit prompts and responses, refine queries, and get shared, context‑aware answers.</p>
     </li>
-</ul>
   </ul>
 </section>

@@ -43,6 +43,14 @@ h1{margin:0;font-size:1.9rem}
 /* small meta text used for dates/tech stacks */
 .meta{color:var(--muted);font-size:0.92rem}
 
+/* Horizontal scrolling rows for cards */
+.horizontal-row{display:flex;flex-direction:row;gap:1.5rem;align-items:flex-start;overflow-x:auto;padding-bottom:1rem;padding-left:0}
+.horizontal-row .card{min-width:320px;flex:0 0 320px}
+
+/* Horizontal list variant (for future projects) */
+.horizontal-list{display:flex;gap:1.5rem;align-items:flex-start;overflow-x:auto;padding-bottom:1rem;list-style:none;padding-left:0;margin:0}
+.horizontal-list .card{min-width:320px;flex:0 0 320px;list-style:none;margin:0;padding:0}
+
 .section{margin:2.25rem 0}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem}
 .card{background:var(--card);padding:1rem;border-radius:12px;border:1px solid var(--border);box-shadow:0 6px 18px rgba(15,23,42,0.06)}
