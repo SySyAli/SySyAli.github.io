@@ -1,0 +1,15 @@
+title: "Syed Ali"
+email: "your.email@example.com" # replace with your email
+description: "Personal website of Syed Ali — software engineer. Resume, projects, and contact."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the full URL, leave empty for GitHub Pages
+
+markdown: kramdown
+
+# Keep permalink style simple
+permalink: /:title/
+
+# Exclude files from the site build
+exclude:
+  - README.md
+  - LICENSE
