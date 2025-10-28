@@ -19,12 +19,18 @@ body{
   -webkit-font-smoothing:antialiased;
 }
 .container{max-width:1100px;margin:0 auto;padding:2rem}
-.site-header{border-bottom:1px solid var(--border);background:transparent}
+.site-header{
+  background: var(--card);
+  border-bottom:1px solid var(--border);
+  box-shadow: 0 2px 10px rgba(15,23,42,0.04);
+  padding: 0.5rem 0;
+}
 .header-inner{display:flex;align-items:center;justify-content:space-between}
 .logo{font-weight:700;color:var(--accent);text-decoration:none;font-size:1.05rem}
 .nav a{color:var(--muted);text-decoration:none;margin-left:1rem}
 
-.hero{padding:3rem 0}
+.hero{padding:3rem 0 1rem}
+.hero + .section{margin-top:0}
 .hero-inner{display:flex;gap:1.5rem;align-items:center}
 .avatar{width:96px;height:96px;border-radius:12px;border:1px solid var(--border);background:var(--glass);padding:8px}
 h1{margin:0;font-size:1.9rem}

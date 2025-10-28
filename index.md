@@ -7,8 +7,8 @@ title: Syed Ali
   <div class="hero-inner">
     <div>
       <h1>Syed Ali</h1>
-      <p class="lead">I am an accelerated BS/MS student at Vanderbilt University studying Computer Science, with an additional major in Mathematics. I will graduate in May 2026.</p>
-    <p class="lead">I am interested in the intersection between Computer Science, Urban Planning, and Transit. Before this, I was a SWE intern at Capital One. My primary interests are in Backend Engineering, Distributed Systems, and Machine Learning.</p>
+      <p class="lead">I am an accelerated BS/MS student at Vanderbilt University studying Computer Science, with an additional major in Mathematics. I will graduate in May 2026 with both degrees. I am pursuing full-time Software Engineering roles.</p>
+    <p class="lead">I am interested in the intersection between Computer Science, Urban Planning, and Transit. I've interned at Capital One, The American Bureau of Shipping, and the Vanderbilt Department of Transportaion. My primary interests are in Backend Engineering, Distributed Systems, and Machine Learning.</p>
 
     <p class="social">
         <a href="mailto:syed.a.ali@vanderbilt.edu" title="Email"><i class="fa fa-envelope" style="font-size:28px;color:#34231e;"></i></a>&nbsp;&nbsp;
@@ -20,6 +20,7 @@ title: Syed Ali
 </section>
 
 <section id="projects" class="section">
+  <h2>Projects</h2>
   <div class="grid horizontal-row">
   <article class="card">
         <h3>Access911 <small class="meta">| October 2025</small></h3>
