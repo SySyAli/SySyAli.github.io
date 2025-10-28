@@ -24,36 +24,36 @@ title: Syed Ali
   <article class="card">
         <h3>Access911 <small class="meta">| October 2025</small></h3>
         <p class="meta">Next.js, AWS (Lambda, DynamoDB, Bedrock), TypeScript, Twilio, Mapbox</p>
-    <p>Secured 3rd place and $10,000 at the AWS x Vanderbilt Mission Autonomy Hackathon by building an AI‑powered emergency response platform that reduces 911 hold times during disasters. Architected serverless AWS infrastructure (Lambda, DynamoDB) and integrated Amazon Bedrock for real‑time call summarization. Built end‑to‑end voice pipeline (Twilio, ElevenLabs) and Next.js dispatcher dashboard with live Mapbox visualization. <a class="link" href="https://github.com/SySyAli/access911">Repository →</a></p>
+    <p>Secured 3rd place and $10,000 at the AWS x Vanderbilt Mission Autonomy Hackathon by building an AI‑powered emergency response platform that reduces 911 hold times during disasters. <a class="link" href="https://github.com/SySyAli/access911">Repository →</a></p>
     </article>
 
   <article class="card">
         <h3>Distributed Data Pipeline on Kubernetes <small class="meta">| October 2025</small></h3>
         <p class="meta">Kubernetes, Docker, Ansible, Kafka, Flask, Python</p>
-        <p>Deployed a scalable Kafka streaming pipeline on a 5‑node Kubernetes cluster using Ansible and Docker with multiple publisher/subscriber replicas. Configured master/worker architecture, private Docker registry, and firewall rules; authored deployment YAMLs for stateful/stateless services. Built a multi‑topic IoT ingestion system with horizontal scaling to avoid bottlenecks.</p>
+        <p>Deployed a scalable Kafka streaming pipeline on a 5‑node Kubernetes cluster using Ansible and Docker with multiple publisher/subscriber replicas.</p>
     </article>
 
   <article class="card">
         <h3>CourseCoach <small class="meta">| November 2024</small></h3>
         <p class="meta">Next.js, TypeScript, OpenAI API, Chakra UI</p>
-        <p>Course scheduling platform (2nd place, VandyHacks XI) that provides AI‑powered course recommendations and interactive flowcharts. Integrated OpenAI API into a Next.js app to deliver personalized recommendations based on user history and preferences. <a class="link" href="https://github.com/SySyAli/course_coach">Repository →</a></p>
+        <p>Course scheduling platform (2nd place, VandyHacks XI) that provides AI‑powered course recommendations and interactive flowcharts.<a class="link" href="https://github.com/SySyAli/course_coach">Repository →</a></p>
     </article>
-  </div>
+  </div> 
 </section>
 
 <section id="future-projects" class="section">
   <h2>Future Projects</h2>
-  <ul class="horizontal-list">
-    <li class="card">
-        <h3>Transit Trip Planner <small class="meta">| Planned</small></h3>
-        <p class="meta">Multi-modal routing, GTFS, optimization</p>
-        <p>Multi-stop itinerary planner that optimizes for total travel time, fewest transfers, or reliability across transit, walking, and micro-mobility. Current apps only provide the ability for one route.</p>
-    </li>
+  <div class="grid horizontal-row">
+    <article class="card">
+      <h3>Transit Trip Planner <small class="meta">| Planned</small></h3>
+      <p class="meta">Multi-modal routing, GTFS, optimization</p>
+      <p>Multi-stop itinerary planner that optimizes for total travel time, fewest transfers, or reliability across transit, walking, and micro-mobility. Current apps only provide the ability for one route.</p>
+    </article>
 
-    <li class="card">
-        <h3>Collaborative AI Workspace <small class="meta">| Planned</small></h3>
-        <p class="meta">Real-time collaboration, generative AI, shared context</p>
-        <p>Google‑Docs-like generative AI app where teams co-edit prompts and responses, refine queries, and get shared, context‑aware answers.</p>
-    </li>
-  </ul>
+    <article class="card">
+      <h3>Collaborative AI Workspace <small class="meta">| Planned</small></h3>
+      <p class="meta">Real-time collaboration, generative AI, shared context</p>
+      <p>Google‑Docs-like generative AI app where teams co-edit prompts and responses, refine queries, and get shared, context‑aware answers.</p>
+    </article>
+  </div>
 </section>
