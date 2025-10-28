@@ -40,6 +40,7 @@ title: Syed Ali
         <p>Course scheduling platform (2nd place, VandyHacks XI) that provides AI‑powered course recommendations and interactive flowcharts.<a class="link" href="https://github.com/SySyAli/course_coach">Repository →</a></p>
     </article>
 
+  </div> 
     <h2>Future Projects</h2>
   <div class="grid horizontal-row">
     <article class="card">
@@ -54,8 +55,6 @@ title: Syed Ali
       <p>Google‑Docs-like generative AI app where teams co-edit prompts and responses, refine queries, and get shared, context‑aware answers.</p>
     </article>
   </div>
-
-  </div> 
 </section>
 
 
