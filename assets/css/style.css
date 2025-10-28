@@ -36,6 +36,9 @@ h1{margin:0;font-size:1.9rem}
 .social-link svg{width:18px;height:18px}
 .social-link:hover{transform:translateY(-3px);color:var(--accent)}
 
+/* small meta text used for dates/tech stacks */
+.meta{color:var(--muted);font-size:0.92rem}
+
 .section{margin:2.25rem 0}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem}
 .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.015));padding:1rem;border-radius:12px;border:1px solid rgba(255,255,255,0.03)}

@@ -1,20 +1,24 @@
 ---
 layout: default
-title: Home
+title: Syed Ali
 ---
 
 <section class="hero">
   <div class="hero-inner">
     <div>
       <h1>Syed Ali</h1>
-      <p class="lead">Software Engineer — building resilient, user-friendly web services & apps.</p>
+      <p class="lead">I am an accelerated BS/MS student at Vanderbilt University studying Computer Science, with an additional major in Mathematics. I will graduate in May 2026.</p>
+    <p class="lead">I am an interested in the intersection between Computer Science, Urban Planning, and Transit. Before this, I was a SWE intern at Capital One. My primary interests are in Backend Engineering, Distributed Systems, and Machine Learning.</p>
 
       <!-- Social favicons: Email, GitHub, LinkedIn -->
       <p class="social">
         <a class="social-link" href="mailto:syed.a.ali@vanderbilt.edu" title="Email">
-          <!-- mail icon -->
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M3 6.5V18a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M21 6.5l-9 6-9-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </a>
+        <!-- mail icon -->
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" aria-label="Email">
+            <rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M3 7l9 6 9-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M7 12h10" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity="0.6" />
+        </svg>     </a>
 
         <a class="social-link" href="https://github.com/SySyAli" title="GitHub" target="_blank" rel="noopener">
           <!-- github icon -->
@@ -35,23 +39,47 @@ title: Home
   <h2>Projects</h2>
   <div class="grid">
     <article class="card">
-      <h3>Example Project A</h3>
-      <p>Short description — what it does, main tech stack, and link to repo.</p>
+      <h3>Access911 <small class="meta">| October 2025</small></h3>
+      <p class="meta">Next.js, AWS (Lambda, DynamoDB, Bedrock), TypeScript, Twilio, Mapbox</p>
+      <ul>
+        <li>Secured 3rd place and $10,000 at the AWS x Vanderbilt Mission Autonomy Hackathon by developing an AI-powered emergency response platform that reduces 911 hold times during disasters.</li>
+        <li>Architected serverless AWS infrastructure using Lambda and DynamoDB for concurrent call processing; integrated Amazon Bedrock (Claude Sonnet 3.5) for real-time call summarization.</li>
+        <li>Built end-to-end voice pipeline (Twilio, ElevenLabs) and Next.js dispatcher dashboard with live Mapbox visualization, achieving 93% success rate and 2.8s latency across 2,500 calls in 30 minutes.</li>
+      </ul>
       <p><a class="link" href="#">Repository →</a></p>
     </article>
+
     <article class="card">
-      <h3>Example Project B</h3>
-      <p>Short description — what it does, main tech stack, and link to repo.</p>
+      <h3>Distributed Data Pipeline on Kubernetes <small class="meta">| October 2025</small></h3>
+      <p class="meta">Kubernetes, Docker, Ansible, Kafka, Flask, Python</p>
+      <ul>
+        <li>Deployed scalable Kafka streaming pipeline on a 5-node Kubernetes cluster using Ansible for orchestration and Docker containerization with multiple publisher/subscriber replicas for distributed message processing.</li>
+        <li>Configured Kubernetes infrastructure with master/worker architecture, private Docker registry, and firewall rules; designed deployment YAMLs for stateful and stateless services across the cluster.</li>
+        <li>Built a multi-topic IoT data ingestion system processing sensor data; implemented horizontal scaling of subscribers and Flask web servers to prevent bottlenecks.</li>
+      </ul>
       <p><a class="link" href="#">Repository →</a></p>
     </article>
+
+    <article class="card">
+      <h3>CourseCoach <small class="meta">| November 2024</small></h3>
+      <p class="meta">Next.js, TypeScript, OpenAI API, Chakra UI</p>
+      <ul>
+        <li>Developed and presented a course scheduling platform, placing 2nd at VandyHacks XI, enabling students to optimize academic planning through AI-powered recommendations and interactive flowcharts.</li>
+        <li>Integrated OpenAI API to provide personalized course recommendations into Next.js web app based on user history and preferences, improving decision-making and ensuring degree progress.</li>
+      </ul>
+      <p><a class="link" href="#">Repository →</a></p>
+    </article>
+
+
   </div>
 </section>
 
 <section id="future-projects" class="section">
   <h2>Future Projects</h2>
   <ul>
-    <li>Project idea 1 — brief note</li>
-    <li>Project idea 2 — brief note</li>
-    <li>Project idea 3 — brief note</li>
+    <li><strong>Transit Trip Planner</strong> — Multi-stop itinerary planner that optimizes for total travel time, fewest transfers, or reliability across transit, walking, and micro-mobility. Current apps only provide the ability for one route.
+    </li>
+
+    <li><strong>Collaborative AI Workspace</strong> — A real-time, Google-Docs-like generative AI app where teams co-edit prompts and responses, collaboratively refine queries, and receive shared, context-aware answers and suggestions instantly.</li>
   </ul>
 </section>
