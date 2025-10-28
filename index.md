@@ -39,11 +39,8 @@ title: Syed Ali
         <p class="meta">Next.js, TypeScript, OpenAI API, Chakra UI</p>
         <p>Course scheduling platform (2nd place, VandyHacks XI) that provides AI‑powered course recommendations and interactive flowcharts.<a class="link" href="https://github.com/SySyAli/course_coach">Repository →</a></p>
     </article>
-  </div> 
-</section>
 
-<section id="future-projects" class="section">
-  <h2>Future Projects</h2>
+    <h2>Future Projects</h2>
   <div class="grid horizontal-row">
     <article class="card">
       <h3>Transit Trip Planner <small class="meta">| Planned</small></h3>
@@ -57,4 +54,9 @@ title: Syed Ali
       <p>Google‑Docs-like generative AI app where teams co-edit prompts and responses, refine queries, and get shared, context‑aware answers.</p>
     </article>
   </div>
+
+  </div> 
+</section>
+
+
 </section>
